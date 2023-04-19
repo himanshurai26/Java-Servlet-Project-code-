@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Insert title here</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body class="container-fluid card" style="width: 40rem">
+        <h2 class="bg-primary text-white text-center">Book Registration</h2>
+        <form action="RegisterServlet" method="post">
+            <table class="table">
+                <tr>
+                    <td>Book Name</td>
+                    <td><input type="text" name="bookName"></td>
+                </tr>
+                <tr>
+                    <td>Book Edition</td>
+                    <td><input type="text" name="bookEdition"></td>
+                </tr>
+                <tr>
+                    <td>Book Price</td>
+                    <td><input type="text" name="bookPrice"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="register"></td>
+                    <td><input type="reset" value="cancel"></td>
+                </tr>
+            </table>
+            
+            <a href='BookList'>Book List</a>
+            
+        </form>
+    </body>
+</html>
